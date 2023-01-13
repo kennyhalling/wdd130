@@ -1,0 +1,37 @@
+/*The selector is 'body'. All declarations are within the curly brackets*/
+body{
+    /*Aligns the body and its children with the page's center*/
+    text-align: center;
+}
+nav {
+    /*Gives the navigation bar a steel blue background*/
+    background-color: steelblue;
+    /*Give the nav box a wider border*/
+    padding: 10px;
+}
+a {
+    /*Makes nav bar text white*/
+    color: white;
+    /*Gives space between nav bar elements*/
+    margin: 40px;
+}
+h1 {
+    /*Makes the first header steel blue*/
+    color: steelblue;
+}
+img {
+    /*Modifys the image's width*/
+    width: 800px;
+    /*Gives the image a solid steel blue border*/
+    border: 4px solid steelblue;
+}
+p{
+    /*Gives space around the paragraph*/
+    padding: 10px;
+}
+footer{
+    /*Gives the footer a steelblue background*/
+    background-color: steelblue;
+    /*Makes footer elements white*/
+    color: white;
+}
