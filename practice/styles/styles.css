@@ -15,9 +15,13 @@ a {
     /*Gives space between nav bar elements*/
     margin: 40px;
 }
+/*'h1' and the 'title' ID both affect the same thing. Practiced using ID's*/
 h1 {
     /*Makes the first header steel blue*/
     color: steelblue;
+}
+#title{
+    background-color: white;
 }
 img {
     /*Modifys the image's width*/
@@ -31,7 +35,8 @@ p{
 }
 /*Only targets second paragrah*/
 .testing{
-    color: green;
+    background-color: gray;
+    color: white;
 }
 footer{
     /*Gives the footer a steelblue background*/
