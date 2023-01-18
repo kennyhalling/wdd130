@@ -29,6 +29,10 @@ p{
     /*Gives space around the paragraph*/
     padding: 10px;
 }
+/*Only targets second paragrah*/
+.testing{
+    color: green;
+}
 footer{
     /*Gives the footer a steelblue background*/
     background-color: steelblue;
