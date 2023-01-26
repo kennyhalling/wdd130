@@ -9,6 +9,12 @@ nav {
     /*Give the nav box a wider border*/
     padding: 10px;
 }
+/*Below is a PSEUDO_CLASS that allows the color of a button to
+change when it is hovered over by the cursor*/
+a:hover{
+    background-color: white;
+    color: steelblue;
+}
 #active{
     background-color: white;
     color: steelblue;
@@ -53,4 +59,10 @@ footer{
     background-color: steelblue;
     /*Makes footer elements white*/
     color: white;
+}
+/*If there was more present in the footer, this selector would still
+ONLY targer the 'p' section of the footer*/
+footer p{
+    font-size: 20px;
+    margin: 20 px auto;
 }
