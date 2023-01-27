@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(214, 122, 168);
+    text-align: center;
+    color: white;
+}
+#title{
+    font-size: 2.5em;
+}
+#title:hover{
+    color: black;
+}
+aside{
+    margin: 0 auto;
+}
+#name{
+    font-size: 1.25em;
+}
+#list{
+    color:black;
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+img{
+    width: 30%;
+}
+article{
+    font-size: 2.5em;
+    width: 40%;
+    margin: 0 auto;
+    padding: 5%;
+}
+footer{
+    color: black;
+    padding: 1%;
+}
