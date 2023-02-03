@@ -5,6 +5,7 @@ nav {
     /*Give the nav box a wider border*/
     padding: 1%;
     text-align: center;
+    padding: 25px;
 }
 /*Below is a PSEUDO_CLASS that allows the color of a button to
 change when it is hovered over by the cursor*/
@@ -13,8 +14,8 @@ a:hover{
     color: steelblue;
 }
 #active{
-    background-color: white;
-    color: steelblue;
+    background-color: steelblue;
+    color: gainsboro;
 }
 a {
     /*Makes nav bar text white*/
@@ -22,12 +23,14 @@ a {
     /*Gives space between nav bar elements*/
     margin: 4%;
     font-size: 1.5em;
+    padding: 25px;
 }
 /*'h1' and the 'title' ID both affect the same thing. Practiced using ID's*/
 h1 {
     /*Makes the first header steel blue*/
     color: steelblue;
     text-align: center;
+    margin: 50px 0;
 }
 #title{
     background-color: white;
@@ -64,7 +67,9 @@ footer{
     background-color: steelblue;
     /*Makes footer elements white*/
     color: white;
-    text-align: center
+    text-align: center;
+    padding: 15px;
+    margin: 5px 10px;
 }
 /*If there was more present in the footer, this selector would still
 ONLY targer the 'p' section of the footer*/

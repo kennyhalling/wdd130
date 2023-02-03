@@ -1,0 +1,21 @@
+body{
+    background-color: gray;
+}
+#title_image{
+    margin: 0;
+    width: 100%;
+}
+main{
+    background-color: gray;
+    padding: 5%;
+    width: 90%;
+    margin: 0;
+    text-align: center;
+}
+.image{
+    width: 20%;
+    padding: 0px;
+    margin: 0 40px;
+    border-radius: 50%;
+    border: 10px solid rgb(49, 61, 61);
+}
