@@ -17,6 +17,9 @@ h2{
 }
 #logo_link{
     padding-top: 5px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 .icon{
     width: 80px;
@@ -24,10 +27,14 @@ h2{
 }
 header{
     background-color: #929378;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 nav{
     text-align: center;
     font-family: Inter, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
 }
 nav a{
     color: whitesmoke;
