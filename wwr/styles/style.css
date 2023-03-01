@@ -234,7 +234,8 @@ footer .social img{
 #FAQ-main{
     display: grid;
     grid-template-columns: 1fr 5px 1fr;
-    grid-template-rows: 1fr 1fr 5fr;
+    grid-template-rows: .5fr 1fr 5fr;
+    margin: 0 auto;
 }
 #faq-title{
     grid-column: 1/4;
@@ -245,6 +246,7 @@ footer .social img{
     align-items: center;
     font-family: "Special Elite";
     text-decoration: underline;
+    color: #113E15;
 }
 #newcomers{
     grid-column: 1/2;
@@ -254,11 +256,12 @@ footer .social img{
     text-align: center;
     align-items: center;
     font-family: Inter, Helvetica, sans-serif;
+    padding: 30px;
 }
 #line{
     grid-column: 2/3;
-    grid-row: 3/4;
-    border-left: 5px solid black;
+    grid-row: 2/4;
+    border-left: 5px solid #113E15;
 }
 #services{
     grid-column: 3/4;
@@ -268,13 +271,19 @@ footer .social img{
     text-align: center;
     align-items: center;
     font-family: Inter, Helvetica, sans-serif;
+    padding: 30px;
 }
 .question{
     font-size: 1em;
     text-align: left;
+    color: #113E15;
 }
 .answer{
     font-size: .8em;
     text-align: left;
     text-decoration: none;
+}
+.faq_img{
+    border: 10px solid #113E15;
+    box-shadow: 5px 5px 10px #6f7364;
 }
