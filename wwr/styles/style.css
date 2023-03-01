@@ -273,6 +273,10 @@ footer .social img{
     font-family: Inter, Helvetica, sans-serif;
     padding: 30px;
 }
+.header{
+    font-size: 1.5em;
+    font-weight: bold;
+}
 .question{
     font-size: 1em;
     text-align: left;
@@ -281,7 +285,6 @@ footer .social img{
 .answer{
     font-size: .8em;
     text-align: left;
-    text-decoration: none;
 }
 .faq_img{
     border: 10px solid #113E15;
